@@ -1,6 +1,6 @@
 disqus:
-  enable: false ## If you want to use Disqus comment system, please set the value to true.
-  shortname: ## Your disqus_shortname, e.g. username
+  enable: true
+  shortname: counter2015
   api: ## You can visit Disqus comments in China mainland without barriers using Disqus API, e.g. https://disqus.skk.moe/disqus/
   apikey: ## Your API key obtained in Disqus API Application, e.g. yk00ZB1fjYGRkrCrDDRYDUjpp26GJWJiJRZQZ5SY0r3th5FMW6pnSzQMnWH7ua7r
   admin: ## Username of your Disqus moderator, e.g. username
