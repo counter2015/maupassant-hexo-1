@@ -1,4 +1,4 @@
-if theme.disqus.enable == true
+if theme.disqus
   link(rel='stylesheet', type='text/css', href='https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqusjs.css?v=' + theme.version)
   script(type='text/javascript' src='https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqus.js?v=' + theme.version)
   script(type='text/javascript' id='disqus-count-script').
@@ -87,7 +87,7 @@ if theme.livere
          e.parentNode.insertBefore(j, e);
       })(document, 'script');
 
-if theme.gitalk.enable == true
+if theme.gitalk
   #container
   link(rel='stylesheet', type='text/css', href='//unpkg.com/gitalk/dist/gitalk.css?v=' + theme.version)
   script(type='text/javascript' src='//cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js?v=' + theme.version)
@@ -104,7 +104,7 @@ if theme.gitalk.enable == true
     })
     gitalk.render('container')
 
-if theme.valine.enable == true
+if theme.valine
   #vcomment
   script(src='//cdn1.lncld.net/static/js/3.0.4/av-min.js')
   script(src='//unpkg.com/valine@latest/dist/Valine.min.js')
@@ -128,7 +128,7 @@ if theme.valine.enable == true
       pageSize:'#{theme.valine.pageSize}'
     })
 
-if theme.minivaline.enable == true
+if theme.minivaline
   #minivaline-container
   script(src='https://unpkg.com/minivaline/dist/MiniValine.min.js')
   script.
@@ -143,7 +143,7 @@ if theme.minivaline.enable == true
       md: #{theme.minivaline.md}
     })
 
-if theme.waline.enable == true
+if theme.waline
   #waline
   script(src='https://cdn.jsdelivr.net/npm/@waline/client')
   script.
@@ -153,10 +153,10 @@ if theme.waline.enable == true
       pageSize: '#{theme.waline.pageSize}',
     })
 
-if theme.utterances.enable == true
+if theme.utterances
   script(src='https://utteranc.es/client.js', repo=theme.utterances.repo, issue-term=theme.utterances.identifier, theme=theme.utterances.theme, crossorigin='anonymous', async)  
 
-if theme.twikoo.enable == true
+if theme.twikoo
   #tcomment
   script(src='https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js')
   script.

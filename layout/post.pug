@@ -19,18 +19,18 @@ block content
           span= ' ' + __('Hits')
       if theme.wordcount == true
         include _partial/wordcount.pug
-    if theme.disqus.enable == true
+    if theme.disqus
       a.disqus-comment-count(data-disqus-identifier=page.path, href=url_for(page.path) + '#disqus_thread')
     if theme.changyan
       a.ds-thread-count(href=url_for(page.path) + '#SOHUCS')
         span#changyan_count_unit(style='font-size: 15px; color: #6E7173;') 0
         span= ' ' + __('Comment')
       script(src='https://assets.changyan.sohu.com/upload/plugins/plugins.count.js', async)
-    if theme.valine.enable == true
+    if theme.valine
       a.disqus-comment-count(href=url_for(page.path) + '#vcomment')
         span.valine-comment-count(data-xid=url_for(page.path))
         span= ' ' + __('Comment')
-    if theme.waline.enable == true
+    if theme.waline
       a.disqus-comment-count(href=url_for(page.path) + '#vcomment')
         span.waline-comment-count(id=url_for(page.path))
         span= ' ' + __('Comment')
@@ -41,10 +41,10 @@ block content
           != toc(page.content, {list_number: theme.toc_number})
     .post-content
       != page.content
-    if theme.donate.enable == true && page.donate != false
+    if theme.donate && theme.donate.enable == true && page.donate != false
       include _widget/donate.pug
 
-    if theme.post_copyright.enable == true && page.copyright != false
+    if theme.post_copyright && theme.post_copyright.enable == true && page.copyright != false
       include _widget/copyright.pug
 
     if theme.shareto == true

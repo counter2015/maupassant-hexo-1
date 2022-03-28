@@ -22,7 +22,7 @@ if theme.self_search == true
      var path = '#{config.root}' + search_path;
      searchFunc(path, 'local-search-input', 'local-search-result');
 
-if theme.canvas_nest.enable == true
+if theme.canvas_nest && theme.canvas_nest.enable == true
     - var color=theme.canvas_nest.color || "0,0,0"
     - var opacity=theme.canvas_nest.opacity || "0.5"
     - var zIndex=theme.canvas_nest.zIndex || "-2"
