@@ -277,17 +277,6 @@ Seven languages are available for this theme currently: Simplified Chinese (zh-C
 | --------- | --------- | --------- | --------- | --------- |
 | IE9+, Edge| last 10 versions| last 10 versions| last 7 versions| last 10 versions
 
-## Contributing
-All kinds of contributions (enhancements, new features, documentation & code improvements, issues & bugs reporting) are welcome.
-
-Looking forward to your [pull request](https://github.com/tufu9441/maupassant-hexo/pulls).
-
-## Contributors
-Thanks for all contributors of this repo.
-
-<a href="https://github.com/counter2015/maupassant-hexo-1/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=counter2015/maupassant-hexo" />
-</a>
 
 ## Maupassant on other platforms:
 + Typecho：https://github.com/pagecho/maupassant/
