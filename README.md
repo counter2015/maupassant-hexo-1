@@ -1,12 +1,10 @@
 # Maupassant
 
-[![Build Status](https://travis-ci.org/tufu9441/maupassant-hexo.svg?branch=master)](https://travis-ci.org/tufu9441/maupassant-hexo)   [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tufu9441/maupassant-hexo/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/counter2015/maupassant-hexo-1/blob/master/LICENSE)
 
-> 大道至简
 
-[Preview](https://www.haomwei.com)｜[中文文档](https://www.haomwei.com/technology/maupassant-hexo.html)
 
-A simple Hexo template with great performance on different devices, ported from a Typecho theme by [Cho](https://github.com/pagecho/maupassant/), forked and modified from [icylogic](https://github.com/icylogic/maupassant-hexo/).
+A simple Hexo template with great performance on different devices, ported from a Typecho theme by [Cho](https://github.com/pagecho/maupassant/), forked and modified from [tufu9441](https://github.com/tufu9441/maupassant-hexo/).
 
 ![template preview](http://ooo.0o0.ooo/2015/10/24/562b5be12177e.jpg
  "Maupassant template preview")
@@ -15,8 +13,10 @@ A simple Hexo template with great performance on different devices, ported from 
 Install theme and renderers:
 
 ```shell
-$ git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant
+$ git submodule add https://github.com/counter2015/maupassant-hexo-1.git themes/maupassant
 $ npm install hexo-renderer-pug --save
+
+# this will need npm 14.x
 $ npm install hexo-renderer-sass --save
 ```
 
@@ -285,8 +285,8 @@ Looking forward to your [pull request](https://github.com/tufu9441/maupassant-he
 ## Contributors
 Thanks for all contributors of this repo.
 
-<a href="https://github.com/tufu9441/maupassant-hexo/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=tufu9441/maupassant-hexo" />
+<a href="https://github.com/counter2015/maupassant-hexo-1/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=counter2015/maupassant-hexo" />
 </a>
 
 ## Maupassant on other platforms:
