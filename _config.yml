@@ -54,11 +54,9 @@ links:
   - title: isekiのNote
     url: https://blog.iseki.space
   - title: Razetory的技术博客
-    url: https://razertory.me/
+    url: https://razertory.github.io
   - title: ajin的博客
     url: https://blog.ajin.cloud
-  - title: 412空间
-    url: https://wordpress.100steps.vip/
 
 timeline:
   - num: 1
@@ -73,6 +71,11 @@ timeline:
 # Static files
 js: js
 css: css
+
+# warning
+warning:
+  days: 100
+  text: '本文发表的时间过于久远，其中的信息可能已经有所发展或者不再适用于现阶段'
 
 # Theme version
 version: 1.0.0

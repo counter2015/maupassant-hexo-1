@@ -5,6 +5,10 @@ block title
 
 block content
   .post
+    - var dateDiff = Math.floor((new Date().getTime() - page.date) / (24 * 3600 * 1000))
+    if (theme.warning.days > 0) && (dateDiff > theme.warning.days)
+      .alert.alert-danger(role='alert')
+        i(class='fa fa-exclamation-triangle warning')= ' ' + theme.warning.text
     h1.post-title= page.title
     .post-meta= page.date.format(config.date_format)
       if page.categories.length > 0
