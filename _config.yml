@@ -51,6 +51,8 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
+  - title: Heaven's Door
+    url: https://leibnizhu.github.io/
   - title: hushhw's blog 身经百战见得多了
     url: https://wiki.hushhw.cn
   - title: isekiのNote
